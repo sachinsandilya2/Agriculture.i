@@ -1,0 +1,94 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem; /* Adjusted for better mobile readability */
+}
+
+/* Section Styles */
+section {
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 800px; /* To keep content readable on large screens */
+}
+
+h2 {
+    color: #333;
+    font-size: 1.25rem; /* Adjusted for mobile readability */
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    color: #666;
+    font-size: 1.1rem; /* Adjusted for mobile readability */
+    margin-top: 1rem;
+}
+
+/* Content Box Styles */
+.content {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+/* List Styles */
+ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem; /* Adjusted for mobile readability */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.25rem;
+    }
+
+    section {
+        padding: 0.5rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    ul {
+        margin-left: 1rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
